@@ -9,6 +9,7 @@ import LoginScreen from './screens/Login'
 import SignUpScreen from './screens/SignUp'
 import Home from './screens/Home'
 import VoiceScreen from './screens/VoiceScreen'
+import ChatScreen from './screens/ChatScreen'
 
 const App = () => {
   const Stack= createNativeStackNavigator()
@@ -21,6 +22,7 @@ const App = () => {
         <Stack.Screen name='Login' component={LoginScreen} options={{headerShown: false}}/>
         <Stack.Screen name='Signup' component={SignUpScreen} options={{headerShown: false}}/>
         <Stack.Screen name='Home' component={Home} options={{headerShown: false}}/>
+        <Stack.Screen name='ChatScreen' component={ChatScreen} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
     // <>
