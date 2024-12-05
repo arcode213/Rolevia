@@ -10,6 +10,7 @@ import SignUpScreen from './screens/SignUp'
 import Home from './screens/Home'
 import VoiceScreen from './screens/VoiceScreen'
 import ChatScreen from './screens/ChatScreen'
+import Toast from 'react-native-toast-message';
 
 const App = () => {
   const Stack= createNativeStackNavigator()
@@ -24,6 +25,7 @@ const App = () => {
         <Stack.Screen name='Home' component={Home} options={{headerShown: false}}/>
         <Stack.Screen name='ChatScreen' component={ChatScreen} options={{headerShown: false}}/>
       </Stack.Navigator>
+      <Toast />
     </NavigationContainer>
     // <>
     // {/* <VoiceScreen /> */}

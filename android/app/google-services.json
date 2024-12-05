@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983516591273",
+    "project_id": "rolevia-ae321",
+    "storage_bucket": "rolevia-ae321.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983516591273:android:60e1e7bd053d322af725b8",
+        "android_client_info": {
+          "package_name": "com.roleviaai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983516591273-8abi364k60o7uqboq2q78bg46qm4okk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roleviaai",
+            "certificate_hash": "cefe6d41fd547f6167f0cdb1a5755e6eb31397a2"
+          }
+        },
+        {
+          "client_id": "983516591273-fgom6uvkkk8urjoeafrp6et120buophh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHPbi1UM_-QYcfExZWCVkWsMnsjfdmYQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983516591273-fgom6uvkkk8urjoeafrp6et120buophh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
